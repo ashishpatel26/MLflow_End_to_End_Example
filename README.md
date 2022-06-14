@@ -84,7 +84,7 @@ print("Experiement ID: {}".format(experiment.experiment_id))
 ---
 > For Experiment Run Notebook, we have to create the notebook with the following steps.
 
-|  |  |
+| Notebook | Link |
 |--|:--:|
 |Notebook| [Open](Notebook.ipynb)|
 
