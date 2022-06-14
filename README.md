@@ -29,11 +29,11 @@ or
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 127.0.0.1 --port 5000
 ```
-![](images\step1.jpg)
+![](https://raw.githubusercontent.com/ashishpatel26/MLflow_End_to_End_Example/main/images/step1.jpg)
 
 > **Output**
 
-![](images\step1_result.jpg)
+![](https://raw.githubusercontent.com/ashishpatel26/MLflow_End_to_End_Example/main/images/step1_result.jpg)
 
 > This Command create the **`mlflow.db`** and **`artifacts`** folder.
 
@@ -45,13 +45,13 @@ mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./
 mlflow ui
 ```
 
-![](images\open_mlflow.jpg)
+![](https://raw.githubusercontent.com/ashishpatel26/MLflow_End_to_End_Example/main/images/open_mlflow.jpg)
 
 ### MLFLOW UI LOOKS LIKE
 
 ---
 
-![](images\mlflowui.jpg)
+![](https://raw.githubusercontent.com/ashishpatel26/MLflow_End_to_End_Example/main/images/mlflowui.jpg)
 
 ### MLflow Tracking
 ---
@@ -92,7 +92,7 @@ print("Experiement ID: {}".format(experiment.experiment_id))
 
 ---
 
-![](images\flow.png)
+![](https://raw.githubusercontent.com/ashishpatel26/MLflow_End_to_End_Example/main/images/flow.png)
 
 ### MLFlow Model Flavors
 
@@ -116,7 +116,7 @@ print("Experiement ID: {}".format(experiment.experiment_id))
 
 ---
 
-![](images/experiments.jpg)
+![](https://raw.githubusercontent.com/ashishpatel26/MLflow_End_to_End_Example/main/images/experiments.jpg)
 
 ### Final Model Prediction from Staging Code
 
